@@ -10,5 +10,7 @@ package com.Paladion.teamwork.services;
  * @author Administrator
  */
 public interface TemplateService {
+	
+	
     
 }

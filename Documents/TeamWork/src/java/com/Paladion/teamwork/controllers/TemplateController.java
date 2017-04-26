@@ -5,10 +5,18 @@
  */
 package com.Paladion.teamwork.controllers;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
 /**
  *
  * @author Administrator
  */
 public class TemplateController {
+		@RequestMapping(value="/CreateTaskTemplate",method=RequestMethod.GET)
+public String Login()
+{
+return "CreateTaskTemplate";
+}
     
 }

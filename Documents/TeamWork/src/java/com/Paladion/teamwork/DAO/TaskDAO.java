@@ -5,10 +5,14 @@
  */
 package com.Paladion.teamwork.DAO;
 
+import com.Paladion.teamwork.beans.TaskBean;
+
 /**
  *
  * @author Administrator
  */
 public interface TaskDAO {
+	
+	public void addTaskDao(TaskBean tb);
     
 }

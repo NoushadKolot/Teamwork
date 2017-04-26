@@ -5,10 +5,16 @@
  */
 package com.Paladion.teamwork.services;
 
+import com.Paladion.teamwork.beans.TaskBean;
+
 /**
  *
  * @author Administrator
  */
 public interface TaskService {
+	
+	public void addTask(TaskBean tb);
+    public void editTask(TaskBean tb);
+    public void deleteTask(TaskBean tb);
     
 }

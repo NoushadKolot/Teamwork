@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,6 +13,31 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+    <script type="text/javascript">
+      $(function() {
+          $('#idDateField').datepicker();
+      });
+  </script>
+    
+       <%@include file="Header.jsp" %>
+        <h1>Create New Project</h1>
+	   <form:form action="CreateProject.do" method="post" commandName="ProjectM">
+
+	   <table border="2">
+	   <tr><td> Project Name : </td><td>
+	   <form:input path="projectname" /> 
+	   </td> </tr>
+	  
+	  <tr><td> Engineer : </td><td>
+	   <form:input path="engineer" /> 
+	   </td> </tr>
+	   <tr>    
+          <td colspan="2"><input type="submit" value="Save" /></td>    
+         </tr>    
+        </table> 
+	   
+</form:form>
+<center>${Lerror}</center><br>      
+	   
     </body>
 </html>
