@@ -464,8 +464,7 @@ public class ActivityDAOImpl implements ActivityDAO
                 }
             }
         }
-        
-        
+
         public List<AllocationBean> getEngAllocationForActivity(int activityId){
         Session session1 = sessionFactory.getCurrentSession();    
         Transaction tx = session1.beginTransaction();

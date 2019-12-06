@@ -272,7 +272,7 @@ font-style: italic;
         </tr>  
 
          <tr>
-            <td align="right">Prefered Start Date :</td>
+            <td align="right">Preferred Start Date :</td>
             <td><form:input placeholder="Enter Start Date" id="txtFromDate" path="startdate" />
             <span class='red'>*</span>
             <form:errors path="startdate" cssClass="error"/>

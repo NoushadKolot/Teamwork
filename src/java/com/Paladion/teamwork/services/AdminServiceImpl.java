@@ -7,7 +7,6 @@ package com.Paladion.teamwork.services;
 
 import com.Paladion.teamwork.beans.SystemBean;
 import com.Paladion.teamwork.DAO.AdminDAO;
-import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 

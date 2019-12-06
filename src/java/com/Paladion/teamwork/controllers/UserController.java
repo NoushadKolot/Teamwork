@@ -81,7 +81,8 @@ AdminService AdminS;
 	
     @RequestMapping(value="/CreateUser",method=RequestMethod.GET)
     public ModelAndView createUser(HttpServletRequest req)
-    {   String[] authorizedRoles = {"admin","manager"};
+    {   
+        String[] authorizedRoles = {"admin","manager"};
         if(!CU.checkUserAuthorization(authorizedRoles, req)) return new ModelAndView("Error");
         try{
         ModelAndView result= new ModelAndView("CreateUser");

@@ -140,6 +140,10 @@
                     <a href="CreateProject.do">Create New Project</a>
                   
                     <a href="GetAllProjects.do">View All Projects</a>
+                    
+                    <a href="CreateVehicle.do">Create New Vehicle</a>
+                    
+                    <a href="ViewAllVehicle.do">View All Vehicle</a>
                       <%}%>
                 </div>
         </div>
